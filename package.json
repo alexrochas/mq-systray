@@ -1,0 +1,22 @@
+{
+  "name": "fun-notifications",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron index.js",
+    "build": "electron-packager . --all --icon=logo.png"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.5.2",
+    "caller-id": "^0.1.0",
+    "electron": "^1.7.10",
+    "electron-packager": "^10.1.1",
+    "fs": "0.0.1-security",
+    "js-yaml": "^3.10.0",
+    "node-notifier": "^5.1.2",
+    "string": "^3.3.3",
+    "uuid-v4": "^0.1.0"
+  }
+}

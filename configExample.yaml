@@ -1,0 +1,9 @@
+mq:
+  url: >-
+    [MQ_URL]
+  exchange: [EXCHANGE]
+  binds:
+    - routingKey: [ROUTING_KEY]
+      state: [INITIAL_STATE]
+      label: [BUTTON_LABEL]
+sound: [NOTIFICATION_SOUND]
