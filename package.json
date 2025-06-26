@@ -9,7 +9,7 @@
   },
   "license": "ISC",
   "dependencies": {
-    "amqplib": "^0.5.2",
+    "amqplib": "^0.10.8",
     "caller-id": "^0.1.0",
     "electron": "^1.7.10",
     "electron-packager": "^10.1.1",
